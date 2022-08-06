@@ -52,7 +52,6 @@ import { MatSortModule } from '@angular/material/sort';
         MatIconModule,
         MatInputModule,
         MatStepperModule,
-        ReactiveFormsModule,
         AdminModule,
         MatTableModule,
         MatInputModule,

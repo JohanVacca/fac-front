@@ -31,7 +31,7 @@ export class NecesidadesHomeComponent implements OnInit, AfterViewInit {
 
 
   constructor(
-      private necesidadService: NecesidadService, 
+      private necesidadService: NecesidadService,
       private fb: FormBuilder,
       private investigationLinesService: InvestigationLinesService,
       private investigationProgramService: InvestigationProgramService,
@@ -39,7 +39,7 @@ export class NecesidadesHomeComponent implements OnInit, AfterViewInit {
       private updateNececidadesTableServiceService: UpdateNececidadesTableServiceService,
       private form: FormBuilder,
       private localStorageService:LocalStorageService
-  ) { 
+  ) {
   }
 
   public LIST = 'Necesidades';
@@ -66,7 +66,6 @@ export class NecesidadesHomeComponent implements OnInit, AfterViewInit {
   @ViewChild('clasificar') clasificar = new MatSort();
   dataSource = new MatTableDataSource;
 
- 
   ngOnInit(): void {
     this.builder();
     this.getProgramss();
